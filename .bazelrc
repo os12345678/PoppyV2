@@ -1,0 +1,7 @@
+build --action_env=BAZEL_CXXOPTS="-std=c++17"
+build --cxxopt="-std=c++17"
+build --host_cxxopt="-std=c++17"
+build --macos_minimum_os=10.13
+build --macos_sdk_version=10.13
+build --cpu=darwin_arm64
+test --test_output=all

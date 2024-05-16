@@ -3,3 +3,9 @@ bazel-bin
 bazel-mlir-tutorial
 bazel-out
 bazel-testlogs
+bazel-poppyV2
+MODULE.bazel.lock
+MODULE.bazel
+
+# mlir tmp files
+*.mlir
