@@ -9,3 +9,6 @@ MODULE.bazel
 
 # mlir tmp files
 *.mlir
+
+# vscode
+.vscode
